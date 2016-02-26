@@ -9,7 +9,7 @@ The console redirects the standard output and error stream. So by using the `pri
 ```java
 Console console;
 
-void setup()
+void setup() {
   // Initialize the console 
   console = new Console(this);
   
